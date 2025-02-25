@@ -9,7 +9,19 @@
     align-items: center;}
 
   .bibbop-box{
-
   background-color: brown;
   color: ghostwhite;
   }
+.pizda-box{
+border: 2px  solid black;
+  }
+
+.hui-box {
+margin: 30px;
+background-color: rgb(156, 136, 221);
+}
+
+.lol-box{
+background-color: rgb(203, 107, 232);
+border:3px solid rgb(34, 34, 181)
+}
