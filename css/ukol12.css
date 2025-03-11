@@ -1,0 +1,39 @@
+.inline-box{
+display:inline;
+background-color: rgb(123, 78, 165);
+color:white;
+border: 3px solid rgb(123, 78, 165);
+}
+.block-box{
+display: block;
+background-color: rgb(75, 149, 151);
+border: 3px solid rgb(75, 149, 151);
+color:white;
+}
+
+.relative-box{
+position: relative;
+background-color: crimson;
+border: 3px solid crimson;
+color:white;
+}
+.absolute-box{
+position: absolute;
+border: 2px solid rgb(203, 103, 123);
+background-color: rgb(203, 103, 123);
+color: white;
+left: 500px;
+}
+
+.float-left{
+float: left;
+border: 3px solid rgb(42, 91, 182);
+color: white;
+background-color:  rgb(42, 91, 182);
+}
+.float-right{
+background-color: rgb(201, 59, 149);
+float: right;
+border: 3px solid rgb(201, 59, 149);
+color: white;
+}
