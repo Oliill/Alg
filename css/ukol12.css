@@ -1,37 +1,40 @@
-.inline-box {
-display: block;
-background-color: rgb(160, 45, 68);
+
+.inline-box{
+display:inline;
+background-color: rgb(123, 78, 165);
 color:white;
-width: 80px;
-text-align: center;
+border: 3px solid rgb(123, 78, 165);
 }
 .block-box{
 display: block;
-background-color: rgb(201, 224, 224);
-border: 3px solid rgb(201, 224, 224);
-}
-.absolute-box{
-display: block;
-position: fixed;
-text-align: left;
-background-color: blue;
-color: white;
+background-color: rgb(75, 149, 151);
+border: 3px solid rgb(75, 149, 151);
+color:white;
 }
 
 .relative-box{
-
 position: relative;
-background-color: blueviolet;
+background-color: crimson;
+border: 3px solid crimson;
 color:white;
-border: 20px solid rgb(255, 255, 255);
-
+}
+.absolute-box{
+position: absolute;
+border: 2px solid rgb(203, 103, 123);
+background-color: rgb(203, 103, 123);
+color: white;
+left: 500px;
 }
 
 .float-left{
-
-float:left;
-background-color: rgb(211, 175, 149);
+float: left;
+border: 3px solid rgb(42, 91, 182);
+color: white;
+background-color:  rgb(42, 91, 182);
 }
-.float-right{float: right;
-background-color: rgb(181, 207, 144);
+.float-right{
+background-color: rgb(201, 59, 149);
+float: right;
+border: 3px solid rgb(201, 59, 149);
+color: white;
 }
