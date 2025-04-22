@@ -1,0 +1,34 @@
+
+  li.list:nth-child( 2n) {
+
+background-color: rgb(226, 151, 98);
+
+  }
+
+  li.list::before {
+
+    content: ">";
+  }
+
+
+.bth {  
+padding: 50px;
+margin: 50px;
+background-color: blue;
+color: white
+ }
+   
+.btn:hover {
+    background-color: #00e1ff
+  }
+
+ .bth:active {
+
+    background-color: #c71919
+ }
+
+
+ a:not(.bth) {
+
+
+ }
