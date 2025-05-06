@@ -30,5 +30,7 @@ color: white
 
  a:not(.bth) {
 
-
+padding: 5px;
+margin: 5px;
+background-color: rgb(176, 176, 244);
  }
