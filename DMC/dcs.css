@@ -13,3 +13,14 @@
 
   .title {text-align: center;
 font-family: Arial, sans-serif;}
+
+.article{ 
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+.article img {
+  width: 20%;
+  height: auto;
+ display: block;
+ margin: auto;}
