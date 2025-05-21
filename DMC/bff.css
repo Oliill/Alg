@@ -1,22 +1,23 @@
          body {
             margin: 0;
             padding: 0;
-            background: #000000;
-            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, white 5%, black 65%);
+            font-family: Arial, sans-serif;}
 
-        }
         .top-line {
             width: 100vw;
             height: 4px;
             border-top: 4px solid rgb(255, 253, 253);
             margin: 20px auto 20px auto;
         }
+
         .container {
             display: flex;
             justify-content: center;
             gap: 64px;
             margin-top: 40px;
         }
+
         .game-btn {
             width: 400px;
             height: 400px;
@@ -30,22 +31,27 @@
             transition: box-shadow 0.3s, transform 0.3s, background 0.5s;
             box-shadow: 0 4px 24px rgba(0,0,0,0.08);
         }
+
         .game-btn.csgo-btn {
             background: linear-gradient(135deg, #ff8800 0%, #ffd000 100%);
         }
+
         .game-btn.csgo-btn:hover {
-            background: linear-gradient(135deg, #ff7b00 0%, #1f04ca 100%);
+            background: linear-gradient(135deg, #ff7b00 50%, #1f04ca 100%);
             box-shadow: 0 8px 32px rgba(0,0,0,0.15);
             transform: scale(1.04) rotate(-2deg);
         }
+
         .game-btn.dota-btn {
             background: linear-gradient(135deg, #ca0000 0%, #ce1800 100%);
         }
+
         .game-btn.dota-btn:hover {
             background: linear-gradient(135deg, #ff0000 0%, #000000 100%);
             box-shadow: 0 8px 32px rgba(0,0,0,0.15);
             transform: scale(1.04) rotate(2deg);
         }
+
         .csgo {
             font-size: 64px;
             font-family: 'Comic Sans MS', cursive, sans-serif;
@@ -53,6 +59,7 @@
             font-weight: bold;
             letter-spacing: 8px;
         }
+
         .dota {
             font-size: 64px;
             font-family: 'Comic Sans MS', cursive, sans-serif;
@@ -60,8 +67,9 @@
             font-weight: bold;
             letter-spacing: 8px;
         }
- 
+          
         .link-cs {color: black}
+        
         .link-dota {color: black}
         
         .text { color:rgb(255, 255, 255); 
@@ -74,12 +82,12 @@
             border-top: 4px solid rgb(255, 255, 255);
             margin: 20px auto 40px auto;}
 
-.intro {
-      text-align: center;
-      font-size: 1.2rem;
-      margin-bottom: 60px;
-      color: white;
-    }
+          .intro {
+                text-align: center;
+                font-size: 1.2rem;
+                margin-bottom: 60px;
+                color: white;
+              }
 
     .columns {
       display: flex;

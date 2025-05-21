@@ -1,1 +1,15 @@
-body {background-color: rgb(83, 3, 3);}
+         body {
+            margin: 0;
+            padding: 0;
+            background-color: rgb(232, 180, 116);
+            font-family: Arial, sans-serif;}
+            
+.container {
+  width: 80%;
+  margin: 20px auto;
+  background: rgb(249, 249, 249);
+  padding: 20px;
+  box-shadow: 0px 0px 10px gray;}
+
+  .title {text-align: center;
+font-family: Arial, sans-serif;}
