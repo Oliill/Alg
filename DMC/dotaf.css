@@ -1,0 +1,12 @@
+body{
+
+    background-color: rgb(255, 190, 254)
+    }
+    img {
+        width: 600px;
+        height: 800px;
+    }
+    p {
+        color:rgb(0, 0, 0);
+        font-size: 30px;
+    }
