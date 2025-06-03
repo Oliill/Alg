@@ -51,3 +51,11 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 10px;
   background: #e0e0e0;
 }
+
+ .Home {
+            font-size: 20px;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            margin-bottom: 32px;
+            font-weight: bold;
+            letter-spacing: 8px;
+        color: white

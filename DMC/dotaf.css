@@ -1,12 +1,64 @@
-body{
+         body {
+            margin: 0;
+            padding: 0;
+            background-color: rgb(144, 46, 33);
+            font-family: Arial, sans-serif;}
+            
+.container {
+  width: 80%;
+  margin: 20px auto;
+  background: rgb(0, 0, 0);
+  padding: 20px;
+  box-shadow: 0px 0px 10px gray;}
 
-    background-color: rgb(255, 190, 254)
-    }
-    img {
-        width: 600px;
-        height: 800px;
-    }
-    p {
-        color:rgb(0, 0, 0);
-        font-size: 30px;
-    }
+.article{ 
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.article img {
+  width: 20%;
+  height: auto;
+ display: block;
+ margin: auto;}
+
+    
+.header {
+  background-color: #c31010;
+  color: rgb(113, 20, 20);
+  padding: 15px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+}
+.article img {
+  width: 20%;
+  height: auto;
+ display: block;
+ margin: auto;
+}
+.article p {
+  font-size: 20px;
+  line-height: 1.6;
+  text-align: center;
+  color: white;
+}
+.sidebar {
+  margin-top: 20px;
+  padding: 10px;
+  background: #dd6e6e;
+}
+
+ .Home {
+            font-size: 20px;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            margin-bottom: 32px;
+            font-weight: bold;
+            letter-spacing: 8px;
+        }
+
+        .link-home {color: rgb(255, 255, 255)}
